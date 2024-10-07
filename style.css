@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+:root{
+    --container-padding:min(240px,20vw);
+}
+
+body {
+    background-color: #0D0D0D;
+    font-family: Arial;
+    color: white;
+}
+
+/* Section header */
+section{
+    padding-top: 33px;
+    padding-inline: var(--container-padding);
+    margin-inline: auto;
+}
+
+nav {
+
+    padding-inline: var(--container-padding);
+    margin: auto;
+    padding-block: 1.3125rem;
+}
+.conteiner {
+    background-color: #262626;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+
+    /* padding: 1.5rem 2rem; */
+}
+
+.menu h1 {
+    color: #F2561D;
+    font-size: 2.5rem;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Section Hero */
+
+.hero {
+    display: flex;
+    align-items: center;
+
+    margin: auto;
+
+    gap: 50px;
+    padding-top: 5rem;
+
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero span {
+    color: #F2561D;
+}
+
+.hero a {
+    text-decoration: none;
+    color: #0D0D0D;
+    font-weight: bold;
+}
+
+.hero button {
+    background-color: #F2561D;
+    border-radius: 15px;
+    padding: 0.5rem 2rem;
+    margin-top: 1.5rem;
+    border: none;
+}
+
+/* Section sobre */
+
+.sobre {
+    padding-bottom: 2.2575vw;
+}
+
+.card-Sobre {
+    background-color: #262626;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+
+
+        margin: auto;
+}
+
+.cara {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.informacoes {
+    padding-left: 50px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12rem;
+
+}
+
+.icons a {
+    padding: 10px;
+    background-color: #F2561D;
+    border-radius: 10px;
+}
+
+.icons img {
+    width: 40px;
+}
+
+.informacoes h1 {
+    font-size: 2rem;
+}
+
+.informacoes span {
+    color: #F2561D;
+    font-size: 1.4rem;
+}
+
+.gray {
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.conhecimento {
+    border: 5px solid green;
+    /* padding: 10px; */
+}
+
+.conhecimento h1 {
+    font-size: 2.5rem;
+}
+
+.Tec {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px 25px;
+    padding-left: 10px;
+
+    border: 5px solid red;
+}
+
+.Tec a {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F2561D;
+}
+
+.Tec img {
+    width: 70px;
+
+}
+
+/* Section serviços */
+
+.apresentaçao {
+    border: 5px solid white;
+    margin: auto;
+}
+
+.Div-cards {
+    border: 5px solid yellow;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 15px;
+}
+
+.cards {
+    border: 5px solid royalblue;
+} 
