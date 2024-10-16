@@ -89,9 +89,9 @@ section {
 }
 
 nav {
-
-    padding-inline: var(--container-padding);
-    margin: auto;
+    max-width: var(--container-width);
+    /* padding-inline: var(--container-padding); */
+    margin-inline: auto;
     padding-block: 1.3125rem;
 }
 
@@ -183,7 +183,7 @@ li a {
     aspect-ratio: 1 / 1;
     border-radius: 15px;
 
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .informacoes {
@@ -243,6 +243,8 @@ li a {
     font-size: 1.4rem;
 }
 
+/* Section serviços */
+
 .gray-background {
     display: flex;
     justify-content: space-between;
@@ -256,10 +258,6 @@ li a {
     box-shadow: 0 0 0 100vmax #262626;
 }
 
-.conhecimento {
-    /* border: 5px solid green; */
-    /* padding: 10px; */
-}
 
 .conhecimento p {
     margin-top: 2rem;
@@ -270,10 +268,6 @@ li a {
 } */
 
 .Tec {
-    /* display: flex;
-    flex-flow: row wrap;
-    gap: 15px 25px;
-    padding-left: 10px; */
     display: grid;
     grid-template-columns: repeat(4, max(5.93vw, 110px));
     gap: 2.50vw;
@@ -305,15 +299,14 @@ li a {
 
 /* Section serviços */
 
-.apresentaçao {
-}
+/* .apresentaçao {} */
 
 .apresentaçao h3 {
     margin-top: 2rem;
 }
 
 .apresentaçao p {
-   margin-top: 2rem; 
+    margin-top: 2rem;
 }
 
 .Div-cards {
@@ -327,14 +320,15 @@ li a {
 .card {
     /* border: 5px solid royalblue; */
     padding: 24px;
-    
+
     background-color: var(--light-orange-color);
     border-radius: 5px;
+    margin-bottom: 33px;
 }
 
 .card img {
     display: block;
-    
+
     height: 84px;
     width: auto;
     margin-inline: auto;
@@ -342,7 +336,7 @@ li a {
 }
 
 .card h2 {
-   margin-top: 2rem; 
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -360,8 +354,32 @@ li a {
     margin-inline: 24px;
 
     text-align: center;
-    
+
     background: #2B2B2B;
-    /* box-sizing: content-box; */
+
+}
+
+/* Footer  */
+
+
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: var(--container-width);
     
+
+    box-shadow: 0 0 0 100vmax #262626;
+    clip-path: inset(0 -100vmax);
+
+}
+
+.rodape p span {
+    color: var(--orange-color);
+}
+
+.rodape h1 {
+    color: var(--orange-color);
 }
